@@ -9,13 +9,15 @@ Installation
 ************
 Add your Facebook AppID,AppSecret and redirect url in config/facebook_config.php
 
-``php
+```php
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-$config['facebook_app_id']='xxxxxxxxxxxxxxxxxxxx';
-$config['facebook_app_secret']='xxxxxxxxxxxxxxxxx';
-$config['facebook_app_redirect_url']='xxxxxxxxxxxxxxxx';
-``
 
+$config['facebook_app_id']='xxxxxxxxxxxxxxxxxxxx';
+
+$config['facebook_app_secret']='xxxxxxxxxxxxxxxxx';
+
+$config['facebook_app_redirect_url']='xxxxxxxxxxxxxxxx';
+```
 
 
 *******
@@ -29,7 +31,7 @@ agreement <https://github.com/shivraj-chari/codeigniter-facebook-sdk-v4-login-li
 Resources
 *********
 
--  `User Guide Codeigniter<http://www.codeigniter.com/docs>`_.
--  `Facebook API reference<https://developers.facebook.com/docs/reference/php/4.0.0>`_.
+-  User Guide `Codeigniter <http://www.codeigniter.com/docs>`_.
+-  Facebook API `Reference <https://developers.facebook.com/docs/reference/php/4.0.0>`_.
 
 
