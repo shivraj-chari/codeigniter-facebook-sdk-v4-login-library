@@ -1,0 +1,14 @@
+[25-May-2015 22:43:10 Asia/Kolkata] PHP Fatal error:  Call to a member function GetAllInfo() on a non-object in /home/shivrajchari/public_html/demo/verify/application/controllers/Auth.php on line 11
+[25-May-2015 22:43:34 Asia/Kolkata] PHP Fatal error:  Call to a member function GetAllInfo() on a non-object in /home/shivrajchari/public_html/demo/verify/application/controllers/Auth.php on line 11
+[25-May-2015 22:43:37 Asia/Kolkata] PHP Fatal error:  Call to a member function GetAllInfo() on a non-object in /home/shivrajchari/public_html/demo/verify/application/controllers/Auth.php on line 11
+[25-May-2015 22:58:46 Asia/Kolkata] PHP Fatal error:  Class 'Facebook\FacebookRequest' not found in /home/shivrajchari/public_html/demo/verify/application/libraries/Facebook/FacebookRedirectLoginHelper.php on line 95
+[25-May-2015 23:22:28 Asia/Kolkata] PHP Fatal error:  Call to undefined method Facebook::get_login_url() in /home/shivrajchari/public_html/demo/verify/application/controllers/Auth.php on line 13
+[27-May-2015 17:58:23 Asia/Kolkata] PHP Fatal error:  Call to a member function library() on a non-object in /home/shivrajchari/public_html/demo/verify/application/libraries/Facebook.php on line 16
+[27-May-2015 19:11:26 Asia/Kolkata] PHP Fatal error:  Call to a member function library() on a non-object in /home/shivrajchari/public_html/demo/verify/application/libraries/Facebook.php on line 16
+[27-May-2015 20:54:49 Asia/Kolkata] PHP Fatal error:  Cannot use object of type Facebook\GraphUser as array in /home/shivrajchari/public_html/demo/verify/application/controllers/Auth.php on line 19
+[28-May-2015 00:02:17 Asia/Kolkata] PHP Fatal error:  Call to a member function getProperty() on a non-object in /home/shivrajchari/public_html/demo/verify/application/libraries/Facebook.php on line 50
+[28-May-2015 00:02:49 Asia/Kolkata] PHP Fatal error:  Cannot use object of type Facebook\GraphObject as array in /home/shivrajchari/public_html/demo/verify/application/libraries/Facebook.php on line 50
+[28-May-2015 01:49:40 Asia/Kolkata] PHP Fatal error:  Call to undefined function redirect() in /home/shivrajchari/public_html/demo/verify/application/controllers/Auth.php on line 47
+[28-May-2015 01:51:48 Asia/Kolkata] PHP Fatal error:  Call to undefined function redirect() in /home/shivrajchari/public_html/demo/verify/application/controllers/Auth.php on line 47
+[28-May-2015 01:51:50 Asia/Kolkata] PHP Fatal error:  Call to undefined function base_url() in /home/shivrajchari/public_html/demo/verify/application/views/home_view.php on line 24
+[28-May-2015 01:51:52 Asia/Kolkata] PHP Fatal error:  Call to undefined function base_url() in /home/shivrajchari/public_html/demo/verify/application/views/home_view.php on line 24
