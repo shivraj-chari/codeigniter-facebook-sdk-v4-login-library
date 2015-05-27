@@ -1,4 +1,4 @@
-<?php 
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 //facebook configuration file 
 
 $config['facebook_app_id']='';
