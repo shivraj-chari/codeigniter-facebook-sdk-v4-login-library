@@ -1,12 +1,11 @@
-###################
-Codeigniter-Facebook-SDK-v4-login-library
-###################
+
+# Codeigniter-Facebook-SDK-v4-login-library
+
 
 Integrates Facebook SDK-v4 with codeigniter
 
-************
-Installation
-************
+# Installation
+
 Add your Facebook AppID,AppSecret and redirect url in `config/facebook_config.php`
 
 ```php
@@ -17,19 +16,18 @@ $config['facebook_app_id']='xxxxxxxxxxxxxxxxxxxx';
 $config['facebook_app_secret']='xxxxxxxxxxxxxxxxx';
 
 $config['facebook_app_redirect_url']='xxxxxxxxxxxxxxxx';
+
 ```
 
 
-*******
-License
-*******
+# License
 
-Please see the `license
-agreement <https://github.com/shivraj-chari/codeigniter-facebook-sdk-v4-login-library/blob/master/license.txt>`_.
 
-*********
-Resources
-*********
+Please see the [license
+agreement](https://github.com/shivraj-chari/codeigniter-facebook-sdk-v4-login-library/blob/master/license.txt).
 
--  User Guide `Codeigniter <http://www.codeigniter.com/docs>`_.
--  Facebook API `Reference <https://developers.facebook.com/docs/reference/php/4.0.0>`_.
+# Resources
+
+
+-  User Guide [Codeigniter](http://www.codeigniter.com/docs).
+-  Facebook API [Reference](https://developers.facebook.com/docs/reference/php/4.0.0).
