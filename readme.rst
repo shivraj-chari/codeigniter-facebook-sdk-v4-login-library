@@ -11,9 +11,9 @@ Add your Facebook AppID,AppSecret and redirect url in config/facebook_config.php
 
 ``php
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-$config['facebook_app_id']='****';
-$config['facebook_app_secret']='*****';
-$config['facebook_app_redirect_url']='****';
+$config['facebook_app_id']='xxxxxxxxxxxxxxxxxxxx';
+$config['facebook_app_secret']='xxxxxxxxxxxxxxxxx';
+$config['facebook_app_redirect_url']='xxxxxxxxxxxxxxxx';
 ``
 
 
