@@ -7,7 +7,7 @@ Integrates Facebook SDK-v4 with codeigniter
 ************
 Installation
 ************
-Add your Facebook AppID,AppSecret and redirect url in config/facebook_config.php
+Add your Facebook AppID,AppSecret and redirect url in `config/facebook_config.php`
 
 ```php
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
@@ -33,5 +33,3 @@ Resources
 
 -  User Guide `Codeigniter <http://www.codeigniter.com/docs>`_.
 -  Facebook API `Reference <https://developers.facebook.com/docs/reference/php/4.0.0>`_.
-
-
