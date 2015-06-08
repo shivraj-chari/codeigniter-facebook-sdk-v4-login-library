@@ -6,6 +6,10 @@ Integrates Facebook SDK-v4 with codeigniter
 
 # Installation
 
+Sample code is provided in demo folder.
+
+Copy the content from library and config folder to your respective codeigniter application folder.
+
 Add your Facebook AppID,AppSecret and redirect url in `config/facebook_config.php`
 
 ```php
