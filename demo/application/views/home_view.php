@@ -13,10 +13,12 @@
 <body>
 	<div align="center">
 		<h2>Facebook authentication library for Codeigniter</h2>
+		<h5 >login data is stored in session,once you logout the data is cleared.</h5>
 	</div>
-	<?php if($this->session->flashdata('message')) {?>
-            <div class="alert alert-warning" role="alert"><?=$this->session->flashdata('message');?></div>
-            <?php }?>
+	<?php if(isset($this->session->flashdata['message'])){?>
+	<div class="card-panel cyan lighten-3"><?=$this->session->flashdata['message'];?></div>
+	<?php }?>
+	
 	<div class="container">
 		<div class="row">	
 			<div class="col s12 m6 offset-m3 l6 offset-l3">
@@ -32,15 +34,15 @@
 		</div>
 		<div class="row">	
 
-			<?php foreach ($users as $row) {?>
+			<?php  if(isset($_SESSION['name'])) {?>
 				<div class="col s12 m6 l4">
 					<div class="card ">
 			            <div class="card-image">
-			              <img src="<?=$row['profile_pic']?>">
-			              <span class="card-title"><?=$row['name']?></span>
+			              <img src="<?=$_SESSION['profile_pic']?>">
+			              <span class="card-title"><?=$_SESSION['name']?></span>
 			            </div>
 			            <div class="card-action">
-			              <a href="#"><?=$row['name']?></a>
+			              <a href="#"><?=$_SESSION['name']?></a>
 			            </div>
 			        </div>
 				</div>

@@ -39,6 +39,7 @@ Class Facebook {
                 print_r($ex);
             }
         }
+        $data=array();
         if (isset($sess)) {
 
             //store the token in session 
@@ -51,6 +52,8 @@ Class Facebook {
             $data=$graphObject->asArray();
             return $data;
 
+        }else{
+            return $data;
         }
 
     }
