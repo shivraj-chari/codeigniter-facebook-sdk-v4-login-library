@@ -14,6 +14,9 @@
 	<div align="center">
 		<h2>Facebook authentication library for Codeigniter</h2>
 	</div>
+	<?php if($this->session->flashdata('message')) {?>
+            <div class="alert alert-warning" role="alert"><?=$this->session->flashdata('message');?></div>
+            <?php }?>
 	<div class="container">
 		<div class="row">	
 			<div class="col s12 m6 offset-m3 l6 offset-l3">
